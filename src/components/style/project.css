@@ -1,0 +1,67 @@
+.project-section{
+    padding: var(--section-padding);
+    font-family: 'Roboto', sans-serif; 
+    color: var(--blue-color);
+}
+.project-section .page_row{
+    align-items: start;
+}
+.project-section .section_header{
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.project_images{display: none;}
+.project_img{
+    position: relative;
+    width: 100%;
+    margin-top: 2rem;
+}
+.project_img img:first-child{
+    width: 70%;
+    height: 240px;
+}
+.project_img img:last-child{
+    width: 60%;
+    height: 210px;
+    position: absolute;
+    right: 50px;
+    top: 100px;
+}
+.project-section .project_card{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+.project-section .project_title span{
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.project-section .project_title h6{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 7px 0;
+}
+.project-section .project_card a{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 11px;
+    color: var(--blue-color);
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    
+}
+.project-section .project_card a i{
+    font-size: 16px;
+    margin-left: 8px;
+}

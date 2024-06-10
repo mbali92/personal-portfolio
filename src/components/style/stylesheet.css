@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url("https://cdn.lineicons.com/4.0/lineicons.css");
+@import url("header.css");
+@import url("about.css");
+@import url("project.css");
+@import url("skills.css");
+@import url("contact.css");
+@import url("navbar.css");
+@import url("modal.css");
+@import url("work.css");
+@import url("project-details.css");
+
+:root{
+    --blue-color:#444397;
+    --section-padding: 6rem 0;
+    --section-background-color: #f9f9f9;
+    --site-border:1px solid #eee;
+    --pageTitle-font-size:30px;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Roboto', sans-serif;
+}
+.page_row{
+    display: flex;
+    transition: all 800ms;
+    justify-content: space-between;
+}
+.about-section .page_row, .header_section .header_row, 
+.project_row, .skills_row, .contact_row, .work_info{
+    flex-direction: column;
+    
+}
+.section_container{
+    width: 85%;
+    margin: 0 auto;
+}
+.section_header{
+    color: var(--blue-color);
+}
+.section_header h1{
+    font-weight: 600;
+    font-size: 35px;
+    text-transform: capitalize;
+    line-height: 50px;
+    width: 100%;
+}
+.content_col_left, .content_col_right, .contact_details_col{
+    width: 70%;
+    color: var(--blue-color);
+    margin: 0 auto;
+}
+
+.project_button{
+   background-color: var(--blue-color);
+   color: #fff;
+   display: inline-block;
+   font-size: 14px;
+   padding: 1rem 2rem;
+   display: flex;
+   align-items: center;
+   border-radius: 30px;
+   text-transform: capitalize;
+   border: none;
+   margin-top: 2rem;
+   cursor: pointer;
+}
+.project_button i{margin-left: 5px;}
+.page_paragraph {
+   font-size: 14px;
+   line-height: 28px;
+   font-weight: 400;
+   width: 100%;
+}
+@media(min-width:1200px){
+   .section_container{
+    width: 70%;}
+}
+@media(min-width:992px){
+   .content_col_left{width: 46%; margin: 0;}
+   .content_col_right{width: 47%;margin: 0;}
+   .work_left_col {width: 60%;}
+   .work_description{ width:40%;}
+   .work_images{width: 46%;}
+   .about-section .page_row, .header_section .header_row, 
+   .project_row, .skills_row, 
+   .contact_row, .work_info {flex-direction: row;}
+   .project_images{display: block;}
+   .contact_details_col{width: 31%;}
+   .skills_details{padding-left: 2rem; border-left: 1px solid #eee;}
+   .page_paragraph {width: 90%;}
+   .section_header h1, #project_title_text p{width: 70%;}
+}
+@media(max-width:600px){
+    .hero_text, .content_col_left, .content_col_right,.contact_details_col{width: 100%;}
+    .section_header h1, .hero_text h1{font-size: 30px; line-height: 40px;}
+}
+@media(min-width:600px){
+    .project-section .project_card{
+        flex-direction: row;
+        align-items: center;
+    }
+    .project-section .project_card a{margin: 0;}
+}

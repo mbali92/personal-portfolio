@@ -1,0 +1,11 @@
+.portfolio_page_images{
+    width: 50%;
+    padding-right: 1rem;
+}
+.portfolio_page_images img{
+    width: 100%;
+    display: inline;
+}
+.project_page_text{
+    width: 50%;
+}

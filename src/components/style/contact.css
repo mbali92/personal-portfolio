@@ -1,0 +1,35 @@
+.contact-section{
+    padding: var(--section-padding);
+}
+.contact_details{margin-top: 3rem;}
+.contact_details_col{
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+    color: var(--blue-color);
+}
+.contact_details_text {
+    display: flex;
+    align-items: center;
+}
+.contact_details_text i{
+    background-color: #fff;
+    padding: 15px;
+    display: block;
+    border-radius: 50%;
+    font-size: 20px;
+    color: var(--blue-color);
+    margin-right: 10px;
+    border:var(--site-border)
+}
+.contact_details_text p{
+    font-size: 13px;
+}
+.contact_details_text p span{display: block;}
+.contact_details_text p span:first-child{
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.contact_details_text p span:last-child{
+    font-weight: 300;
+}
+.contact_details_text p a{color: var(--blue-color)}
