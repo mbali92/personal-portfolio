@@ -15,8 +15,8 @@ function Navbar() {
                   <a href="#project_section">Portfolio</a>
                   <a href="#skills_section">Skills</a>
               </div>  
-              <div className='navbar_btns'>
-                <i className="lni lni-download"></i>
+            <div className='navbar_btns'>
+              <a href="src/assets/Mbalentle Mkhwanazi Developer Resume.pdf"><i className="lni lni-download"></i></a>
                 <a id='contact' href="#contact-section">Lets Talk</a>
               </div>
               <div onClick={()=>setmobileLinks(!mobileLinks)} className="menu_bar">
