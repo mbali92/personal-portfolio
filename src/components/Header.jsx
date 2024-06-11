@@ -21,7 +21,7 @@ function Header() {
                   developer dedicated to creating elegant solutions to complex problems.
                 </p>
                 <div className="header_btns">
-                  <a className='project_button'>
+                  <a href="#project_section" id="head_project_btn" className='project_button'>
                     <span>view portfolio</span>
                     <i className="lni lni-arrow-right"></i>
                   </a>

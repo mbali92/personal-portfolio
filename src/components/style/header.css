@@ -37,6 +37,7 @@
 .header_btns{
    display: flex;
 }
+#head_project_btn{text-decoration: none;}
 .header_socials {margin: 38px 0 0 20px}
 .header_socials a{text-decoration: none; color: var(--blue-color);}
 .header_socials div {
