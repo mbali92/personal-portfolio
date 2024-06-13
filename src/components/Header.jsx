@@ -26,7 +26,7 @@ function Header() {
                     <i className="lni lni-arrow-right"></i>
                   </a>
                   <div className="header_socials page_row">
-                    <a href='www.linkedin.com/in/mbalentle-mkhwanazi-4661a582'>
+                    <a href='https://www.linkedin.com/in/mbalentle-mkhwanazi-4661a582/'>
                       <i className="lni lni-linkedin"></i>
                     </a>
                     <div>
