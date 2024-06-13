@@ -13,7 +13,7 @@ function Skills() {
               <div className="section_header content_col_left">
               <h1>My Programming Skills & knowledge</h1>
               <p className='page_paragraph'>My skill section highlights my adeptness in different programming languages.
-               It also my proficiency in different softwares. </p>
+             </p>
               </div>
               <div className="skills_details content_col_right">
                 <div className="skills_details_text">
