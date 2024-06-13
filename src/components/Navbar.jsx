@@ -10,7 +10,7 @@ function Navbar() {
             <div className="page_row">
               <h6 id='logo'>EnhleM</h6>
               <div className="navlinks">
-                  <a className='active' href="/">Home</a>
+                  <a  href="/">Home</a>
                   <a href="#about_section">About</a>
                   <a href="#project_section">Portfolio</a>
                   <a href="#skills_section">Skills</a>
@@ -24,7 +24,7 @@ function Navbar() {
               </div> 
           </div>
           <div style={{display:mobileLinks ?"block":"none"}} className="mobile_links">
-            <a href="">Home</a>
+            <a href="/">Home</a>
             <a href="#about_section">About</a>
             <a href="#project_section">Portfolio</a>
             <a href="#skills_section">Skills</a>
