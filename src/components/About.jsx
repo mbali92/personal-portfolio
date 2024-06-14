@@ -14,7 +14,16 @@ function About() {
                     </div>
                     <div className="about_details content_col_right">
                         <h5>Education & Experience</h5>  
-                        <div className="about_details_content">
+              <div className="about_details_content">
+                <div className="about_timeline">
+                              <span className='experience_year'>2023-present</span>
+                              <h6>Software development intern </h6>
+                              <h4>Tshimologong - Digital Innovation Precinct</h4>
+                              <p className='page_paragraph'>
+                    During my tenure as a software developer intern, I gained valuable hands-on experience in Java, Spring Boot, React,
+                    Node.js, and TypeScript. 
+                              </p>
+                          </div>
                           <div className="about_timeline">
                               <span className='experience_year'>2018</span>
                               <h6>Honours in Geospatial data science </h6>
@@ -24,15 +33,7 @@ function About() {
                                  a diverse array of programming languages such as SQL, JavaScript and R. 
                               </p>
                           </div>  
-                          <div className="about_timeline">
-                              <span className='experience_year'>2023-present</span>
-                              <h6>Software development intern </h6>
-                              <h4>Tshimologong - Digital Innovation Precinct</h4>
-                              <p className='page_paragraph'>
-                    During my tenure as a software developer intern, I gained valuable hands-on experience in Java, Spring Boot, React,
-                    Node.js, and TypeScript. 
-                              </p>
-                          </div>
+                          
                 
                         </div>
                     </div>  
