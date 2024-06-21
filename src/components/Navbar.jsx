@@ -11,8 +11,8 @@ function Navbar() {
               <h6 id='logo'>EnhleM</h6>
               <div className="navlinks">
                   <a  href="/">Home</a>
+              <a href="#project_section">Portfolio</a>
                   <a href="#about_section">About</a>
-                  <a href="#project_section">Portfolio</a>
                   <a href="#skills_section">Skills</a>
               </div>  
             <div className='navbar_btns'>

@@ -1,5 +1,6 @@
 .contact-section{
     padding: var(--section-padding);
+    background-color: #f9f9f9;
 }
 .contact_details{margin-top: 3rem;}
 .contact_details_col{

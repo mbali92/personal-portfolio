@@ -43,8 +43,23 @@ function ProjectManagement() {
                   <div className="page_row work_info">
                        <div className="work_images">
                           <img id="big_work_image" src={workImageOne} alt="" />
-                      </div>
-                      <div className="work_description">
+                        </div>
+                         <div className="work_description">
+                          <div className="challenges work_details">
+                              <h6>2. Technologies used</h6>
+                                <p>During the development of this website application, I utilized my skills and knowledge of various frontend and backend programming languages.</p>
+                                <span>I employed React frame work JavaScript,TypeScript, HTML and
+                                    CSS to build the functionality and layout of the site. </span>
+                                <span>I utilized Java and Spring Boot framework to build the site's API's,
+                                    back end's functionality and security.</span>
+                                <span>The website's database structure and design was developed with MySQL and spring JPA </span>
+                          </div>
+                        </div>
+                   
+                  </div>
+                  <div className="page_row work_info">
+                     
+                           <div className="work_description">
                           <div className="challenges work_details">
                               <h6>1. Challenges</h6>
                                 <p>During the construction of the website I faced a list of challenges 
@@ -56,19 +71,6 @@ function ProjectManagement() {
                                     and allowed them to log in using credentials from other platforms.
                                 </span>
                                
-                          </div>
-                      </div>
-                  </div>
-                  <div className="page_row work_info">
-                      <div className="work_description">
-                          <div className="challenges work_details">
-                              <h6>2. Technologies used</h6>
-                                <p>During the development of this website application, I utilized my skills and knowledge of various frontend and backend programming languages.</p>
-                                <span>I employed React frame work JavaScript,TypeScript, HTML and
-                                    CSS to build the functionality and layout of the site. </span>
-                                <span>I utilized Java and Spring Boot framework to build the site's API's,
-                                    back end's functionality and security.</span>
-                                <span>The website's database structure and design was developed with MySQL and spring JPA </span>
                           </div>
                       </div>
                        <div className="work_images">

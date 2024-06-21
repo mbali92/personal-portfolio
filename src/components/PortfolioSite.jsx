@@ -41,12 +41,14 @@ function PortfolioSite() {
                       </div>
                       <div className="work_description">
                           <div className="challenges work_details">
-                              <h6>1. Challenges</h6>
-                                <p>During the construction of the website I faced a list of challenges 
-                            which offered great learning opportunities and skills advancement.</p>
-                                <span>We had to ensure the site was responsive and accessible across different devices.</span>
+                              <h6>2. Technologies used</h6>
+                             <p>During the development of this website, I utilized my skills and knowledge of various frontend programming languages.</p>
+                             <span>I employed React frame work JavaScript, HTML and
+                                  CSS to build the functionality and layout of the site.
+                              </span>
                           </div>
                       </div>
+                      
                   </div>
                   <div className="work_gallery" style={{display:"none"}}>
                       <div className="page_row">
@@ -56,11 +58,10 @@ function PortfolioSite() {
                   <div className="page_row work_info">
                       <div className="work_description">
                           <div className="challenges work_details">
-                              <h6>2. Technologies used</h6>
-                             <p>During the development of this website, I utilized my skills and knowledge of various frontend programming languages.</p>
-                             <span>I employed React frame work JavaScript, HTML and
-                                  CSS to build the functionality and layout of the site.
-                              </span>
+                              <h6>1. Challenges</h6>
+                                <p>During the construction of the website I faced a list of challenges 
+                            which offered great learning opportunities and skills advancement.</p>
+                                <span>We had to ensure the site was responsive and accessible across different devices.</span>
                           </div>
                       </div>
                        <div className="work_images">

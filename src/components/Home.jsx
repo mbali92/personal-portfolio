@@ -10,8 +10,8 @@ function Home() {
         <>
             <div className="site_container">
                 <Header />
-                <About />
                 <Project />
+                <About />
                 <Skills />
                 <Contact />
             </div>
